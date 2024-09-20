@@ -1,0 +1,13 @@
+.profile-header {
+	background-color: #1e1939;
+	background-image: linear-gradient(26deg, #1e1939 33%, #5b4ca0 91%);
+	font-family: "Montserrat", sans-serif;
+	height: 200px;
+}
+
+.sticky-header {
+	position: sticky;
+	top: 0;
+	background-color: white;
+	z-index: 1;
+}

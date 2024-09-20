@@ -1,0 +1,295 @@
+/* --------------- Navbar --------------- */
+.bg-navbar {
+	background-color: #221b3a;
+}
+
+.menu-icon {
+	color: #5eafe0;
+	transition: all 500ms ease;
+}
+
+.menu-icon:hover {
+	color: #fff;
+}
+
+/* --------------- Banner --------------- */
+
+.banner {
+	background-color: #1e1939;
+	background-image: linear-gradient(26deg, #1e1939 33%, #5b4ca0 91%);
+	font-family: "Montserrat", sans-serif;
+}
+
+.banner-header {
+	background: #a997ce;
+	background: linear-gradient(to bottom right, #a997ce 40%, #99d9eb 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 900;
+	font-family: "Montserrat", sans-serif;
+}
+
+.banner-content {
+	font-size: medium;
+	font-weight: 200;
+	font-family: "Montserrat", sans-serif;
+}
+
+.banner-button {
+	background-color: #6e44fe;
+	width: 150px;
+	color: white;
+	transition: all 500ms ease;
+}
+
+.banner-button:hover {
+	background-color: #7c58f3; /* Adjust the color for hover state */
+	box-shadow: 0 0 12px #b1d1d3;
+}
+
+.outline-banner-button {
+	color: white;
+	width: 150px;
+	border-color: #6e44fe;
+	background-color: transparent;
+	transition: all 0.5s linear;
+}
+
+.outline-banner-button:hover {
+	color: white; /* Adjust the color for hover state */
+	background-color: #6e44fe; /* Adjust the background color for hover state */
+	box-shadow: 0 0 12px #b1d1d3;
+}
+
+/* --------------- Features --------------- */
+
+.features {
+	background-color: #f8f7ff;
+	font-family: "Montserrat", sans-serif;
+}
+
+.feauteres-header {
+	font-weight: 600;
+	font-family: "Montserrat", sans-serif;
+	color: #090520;
+}
+
+span.features-header {
+	color: #6e44fe;
+}
+
+.features-content {
+	color: #9f9daa;
+	font-size: medium;
+	font-weight: 200;
+	font-family: "Montserrat", sans-serif;
+}
+
+/* --------------- Feature Card --------------- */
+
+.feature-card {
+	background-color: #f9fafc;
+	width: "16rem";
+	transition: all 500ms ease;
+}
+
+.feature-title {
+	color: #9f9daa;
+	font-size: medium;
+	font-weight: 600;
+	font-family: "Montserrat", sans-serif;
+	transition: color 0.3s;
+}
+
+.feature-description {
+	color: #9f9daa;
+	font-size: small;
+	font-weight: 400;
+	font-family: "Montserrat", sans-serif;
+	transition: color 0.3s;
+}
+
+.feature-icon {
+	size: 2rem;
+	transition: color 0.3s;
+}
+
+.feature-card:hover {
+	box-shadow: 0 0 12px #b1d1d3;
+	background-color: #16122b;
+}
+
+.feature-card:hover .feature-title,
+.feature-card:hover .feature-description,
+.feature-card:hover .feature-icon svg {
+	color: #fff;
+}
+
+/* --------------- techs --------------- */
+.techs {
+	background-color: #f8f7ff;
+	font-family: "Montserrat", sans-serif;
+	min-height: 65vh;
+}
+
+.techs-header {
+	font-weight: 600;
+	font-family: "Montserrat", sans-serif;
+	color: #090520;
+}
+
+.techCard {
+	background-color: #f8f7ff;
+	color: #16122b;
+	font-family: "Montserrat", sans-serif;
+	border: none;
+}
+
+.techCard img {
+	background-color: #f8f7ff;
+	padding: 1rem;
+}
+
+.techCard-title {
+	color: #16122b;
+	font-size: medium;
+	font-weight: 600;
+	font-family: "Montserrat", sans-serif;
+	transition: color 0.3s;
+}
+
+.techCard-description {
+	color: #16122b;
+	font-size: small;
+	font-weight: 400;
+	font-family: "Montserrat", sans-serif;
+	transition: color 0.3s;
+}
+
+.techlist-item {
+	background-color: transparent;
+	border-left: 5px solid #6e44fe;
+	border-right: none;
+	border-top: none;
+	border-bottom: none;
+	transition: all 500ms ease;
+	padding: 1rem;
+}
+
+.techlist-item:hover {
+	background: linear-gradient(to bottom right, #6e44fe 10%, #e3e3e3 100%);
+}
+
+/* --------------- Teams --------------- */
+
+.team {
+	background-color: #221b3d;
+	font-family: "Montserrat", sans-serif;
+}
+
+.team-header {
+	font-weight: 600;
+	font-family: "Montserrat", sans-serif;
+	color: #fff;
+}
+
+.team-card {
+	width: 70%;
+	height: 280px;
+	background: #f5f5f5;
+	padding: 2rem 1.5rem;
+	transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.team-card-info {
+	transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/*Image*/
+.team-card-avatar {
+	--size: 100px;
+	background: linear-gradient(to top, #f1e1c1 0%, #fcbc97 100%);
+	width: var(--size);
+	height: var(--size);
+	border-radius: 50%;
+	transition: transform 0.2s ease;
+	margin: 0 auto 1rem; /* Center the image horizontally and add margin at the bottom */
+	display: block; /* Ensure the image is a block element to center it */
+}
+
+/*Card footer*/
+.team-card-social {
+	transform: translateY(200%);
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	opacity: 0;
+	transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.team-card-social__item {
+	list-style: none;
+}
+
+.team-card-social__item svg {
+	display: block;
+	height: 18px;
+	width: 18px;
+	fill: #515f65;
+	cursor: pointer;
+	transition: fill 0.2s ease, transform 0.2s ease;
+}
+
+/*Text*/
+.team-card-title {
+	color: #333;
+	font-size: 1.5em;
+	font-weight: 600;
+	line-height: 2rem;
+}
+
+.team-card-subtitle {
+	color: #859ba8;
+	font-size: 0.8em;
+}
+
+/*Hover*/
+.team-card:hover {
+	box-shadow: 0 8px 50px #23232333;
+}
+
+.team-card:hover .team-card-info {
+	transform: translateY(-5%);
+}
+
+.team-card:hover .team-card-social {
+	transform: translateY(100%);
+	opacity: 1;
+}
+
+.team-card-social__item svg:hover {
+	fill: #232323;
+	transform: scale(1.1);
+}
+
+.team-card-avatar:hover {
+	transform: scale(1.1);
+}
+
+/* --------------- Footer --------------- */
+.footer {
+	background-color: #090520;
+	font-family: "Montserrat", sans-serif;
+	height: 80px;
+}
+
+.footer p {
+	color: #fff;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm {
+	max-width: 100%;
+}
